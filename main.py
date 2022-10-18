@@ -94,7 +94,7 @@ def create_captcha():
         "is_used": False
     }, data["captcha_id"])
     return data["captcha_id"]
-
+ 
 
 def get_captcha(captcha_id):
     return captcha_db.get(captcha_id)
